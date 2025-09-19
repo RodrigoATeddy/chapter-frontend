@@ -98,7 +98,7 @@ describe('Login', () => {
     const message = compiled.querySelector('.login-message');
     
     expect(message).toBeTruthy();
-    expect(message?.textContent).toContain('Usuário ou senha inválidos!');
+    expect(message?.textContent).toContain('Usuário ou sasasenha inválidos!');
     expect(message?.classList.contains('error')).toBeTruthy();
   });
 
